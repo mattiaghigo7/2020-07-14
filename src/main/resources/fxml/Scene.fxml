@@ -12,7 +12,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
 
-<BorderPane prefHeight="620.0" prefWidth="428.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polito.tdp.PremierLeague.FXMLController">
+<BorderPane prefHeight="465.0" prefWidth="428.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polito.tdp.PremierLeague.FXMLController">
    <top>
       <Label text="Esame 14/07/2020 PremierLeague" BorderPane.alignment="CENTER">
          <BorderPane.margin>
@@ -21,7 +21,7 @@
       </Label>
    </top>
    <center>
-      <VBox prefHeight="605.0" prefWidth="428.0" BorderPane.alignment="CENTER">
+      <VBox prefHeight="383.0" prefWidth="428.0" BorderPane.alignment="CENTER">
          <children>
             <GridPane prefHeight="150.0" prefWidth="300.0">
               <columnConstraints>
@@ -72,7 +72,7 @@
                   <TextField fx:id="txtX" maxWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
                </children>
             </GridPane>
-            <TextArea fx:id="txtResult" prefHeight="436.0" prefWidth="428.0">
+            <TextArea fx:id="txtResult" prefHeight="277.0" prefWidth="428.0">
                <VBox.margin>
                   <Insets top="10.0" />
                </VBox.margin>

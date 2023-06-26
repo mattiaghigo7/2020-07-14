@@ -59,12 +59,7 @@ public class Match {
 	public void setTeamAwayFormation(Integer teamAwayFormation) {
 		this.teamAwayFormation = teamAwayFormation;
 	}
-	public Integer getReaultOfTeamHome() {
-		return resultOfTeamHome;
-	}
-	public void setReaultOfTeamHome(Integer resultOfTeamHome) {
-		this.resultOfTeamHome = resultOfTeamHome;
-	}
+	
 	public LocalDateTime getDate() {
 		return date;
 	}
